@@ -15,7 +15,7 @@ apply plugin: 'maven'
 
 repositories {
     maven {
-        url "http://repository.kiosk.roche.com/maven"
+       mavenCentral()
     }
 }
 
